@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSHEAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="IMAGES/logo.jpg" width="100px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#account">Account</a></li>
+                </ul>
+            </nav>
+            <img src="IMAGES/cart.png" width="40px" height="40px">
+            <img src="IMAGES/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Say More<br>Talk Less!</h1>
+                <p>Description</p>
+                <a href="#learn-more" class="btn">Learn More</a>
+            </div>
+            <div class="col-2">
+                <img src="IMAGES/logo.jpg" class="Product-img">
+            </div>
+            <div class="col-2">
+                <h1>TALKER</h1>
+                <h2>Price: $0.00</h2>
+                <a href="" class="btn">Buy Now<div id="269b"></div></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+   <!--Product Photos or can also be Target market photos-->
+
+   <div class="ProductPhotos">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3"><img src="IMAGES/1image.jpg"></div>
+        <div class="col-3"><img src="IMAGES/2image.jpg"></div>
+        <div class="col-3"><img src="IMAGES/3image.jpg"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="features" class="features">
+    <div class="container">
+        <h2 class="title">Our Features</h2>
+        <div class="row">
+            <div class="feature-box">
+                <h3>Customizable Vocabulary:</h3>
+                <p>Pre-loaded with a diverse vocabulary to cater to different contexts and user needs, 
+                    making the communication easier, it also allows offline translation.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Real-Time Language Translation:</h3>
+                <p>The ability to translate spoken language into text or sign language in real time, 
+                    allowing for seamless communication across different languages.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Speech-to-Text Conversion:</h3>
+                <p>Converts spoken words into written text, which can be displayed on a screen for the user to read.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials">
+    <div class="container">
+        <h2 class="title">Testimonials</h2>
+        <div class="row">
+            <div class="testimonial-box">
+                <p>"Testimonial 1."</p>
+                <h4>Client 1</h4>
+            </div>
+            <div class="testimonial-box">
+                <p>"Testimonial 2."</p>
+                <h4>Client 2</h4>
+            </div>
+            <div class="testimonial-box">
+                <p>"Testimonial 3."</p>
+                <h4>Client 3</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS</p>
+                <div class="app-logo">
+                    <img src="IMAGES/playstore_logo.png" >
+                    <img src="IMAGES/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="IMAGES/logo.jpg" >
+                <p>Our purpose is to provide the best products to our customers.</p>
+            </div>  
+          
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100088958724325&mibextid=ZbWKwL">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@transhear.technolo?_t=8lcOfAgStE7&_r=1">Tiktok</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="footer-bottom-text">© 2024 Transhear. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle() {
+        if( MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
